@@ -117,6 +117,6 @@ As shown in Figure 5, both models demonstrated consistent improvement across 15 
 These findings confirm that depthwise separable convolutions offer a highly favorable accuracy-efficiency trade-off, but that the translation of theoretical efficiency gains (FLOPs) into practical efficiency (latency) is hardware-dependent. This motivates the proposed research direction of hardware-aware NAS frameworks that directly optimize for device level latency across heterogeneous edge targets. Ultimately, designing efficient architectures requires a paradigm shift from pure mathematical factorization to holistic, hardware-aware co-optimization; ensuring models are tailored to the precise execution constraints of their target deployment environment.
 
 8. References
-1.	MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications(Andrew G. Howard and others)
-2.	MobileNetV2: Inverted Residuals and Linear Bottlenecks(Mark Sandler and others)
-3.	Tan, M., & Le, Q. V. (2019). EfficientNet: Rethinking model scaling for convolutional neural networks. In Proceedings of the International Conference on Machine Learning (ICML), 6105–6114.
+    1.	MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications(Andrew G. Howard and others)
+    2.	MobileNetV2: Inverted Residuals and Linear Bottlenecks(Mark Sandler and others)
+    3.	Tan, M., & Le, Q. V. (2019). EfficientNet: Rethinking model scaling for convolutional neural networks. In Proceedings of the International Conference on Machine Learning (ICML), 6105–6114.
